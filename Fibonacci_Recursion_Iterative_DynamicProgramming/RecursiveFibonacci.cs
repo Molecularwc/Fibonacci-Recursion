@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fibonacci_Recursion_Iterative_DynamicProgramming
+﻿namespace Fibonacci_Recursion_Iterative_DynamicProgramming
 {
     public static class RecursiveFibonacci
     {
+        //Get the "nth" Fibonacci number recursively
         public static int fib(int n, int num, int num1)
         {
             if (n == 0)
