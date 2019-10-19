@@ -25,11 +25,11 @@ namespace Fibonacci_Recursion_Iterative_DynamicProgramming
             var dynamicFib3 = DynamicRecursiveFib.fib(10);
             var dynamicFib4 = DynamicRecursiveFib.fib(20);
 
-            Console.WriteLine("********************\n\nFibonacci Recursion: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n\n********************\n\n", firstRecFib, secondRecFib, thirdRecFib, fourthRecFib);
+            Console.WriteLine("********************\nFibonacci Recursion: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n********************", firstRecFib, secondRecFib, thirdRecFib, fourthRecFib);
 
-            Console.WriteLine("********************\n\nFibonacci Iteration: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n\n********************\n\n", iterativeFib1, iterativeFib2, iterativeFib3, iterativeFib4);
+            Console.WriteLine("Fibonacci Iteration: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n********************", iterativeFib1, iterativeFib2, iterativeFib3, iterativeFib4);
 
-            Console.WriteLine("********************\n\nFibonacci Dynamic Recursion: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n\n********************\n\n", dynamicFib1, dynamicFib2, dynamicFib3, dynamicFib4);
+            Console.WriteLine("Fibonacci Dynamic Recursion: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n********************", dynamicFib1, dynamicFib2, dynamicFib3, dynamicFib4);
 
             Console.ReadLine();
         }
