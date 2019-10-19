@@ -17,7 +17,7 @@ namespace Fibonacci_Recursion_Iterative_DynamicProgramming
             thirdRecFib = RecursiveFibonacci.fib(10, 0, 1);
             fourthRecFib = RecursiveFibonacci.fib(20, 0, 1);
 
-            Console.WriteLine("********************\nFibonacci Recursion: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n********************", firstRecFib, secondRecFib, thirdRecFib, fourthRecFib);
+            Console.WriteLine("********************\n\nFibonacci Recursion: \nn = 1:\t{0}\nn = 6:\t{1}\nn = 10:\t{2}\nn = 20:\t{3}\n\n********************\n\n", firstRecFib, secondRecFib, thirdRecFib, fourthRecFib);
             Console.ReadLine();
         }
     }
