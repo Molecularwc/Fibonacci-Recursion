@@ -3,7 +3,7 @@
     public static class DynamicRecursiveFib
     {
         //Get the "nth" Fibonacci number recursively using dynamic programming
-        public static int fib(int n)
+        public static int Fib(int n)
         {
             int[] fibNum = new int[n + 2];
 
