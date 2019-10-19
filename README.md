@@ -13,7 +13,8 @@ A small console app for a Fibonacci sequence
 ## Video Demo
 
 A small demo of the output:
-fib_demo.gif' title='Fibonacci Recursion animated demo' alt='Fibonacci Recursion demo' />
+
+<img src='fib_demo.gif' title='Fibonacci Recursion animated demo' alt='Fibonacci Recursion demo' />
 
 ## License
 
