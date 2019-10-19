@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fibonacci_Recursion_Iterative_DynamicProgramming
 {
-    class DynamicRecursiveFib
+    public static class DynamicRecursiveFib
     {
     }
 }
